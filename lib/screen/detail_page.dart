@@ -12,7 +12,7 @@ class DetailPage extends StatelessWidget {
           children: [
             CircleAvatar(radius: 80, backgroundColor: Colors.green),
             SizedBox(height: 20),
-            Text("Traveler", style: TextStyle(fontSize: 18)),
+            Text("Travelers", style: TextStyle(fontSize: 18)),
             // Expanded(
             //   // height: 100,
             //   child: ListView(
