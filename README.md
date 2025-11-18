@@ -1,5 +1,6 @@
 # broadway_ui_travel
 
+flutter version 3.35.6
 A new Flutter project.
 
 ## Getting Started
