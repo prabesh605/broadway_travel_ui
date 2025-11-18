@@ -1,4 +1,5 @@
 import 'package:broadway_ui_travel/screen/booking_page.dart';
+import 'package:broadway_ui_travel/screen/detail_page.dart';
 import 'package:broadway_ui_travel/screen/home_page.dart';
 import 'package:broadway_ui_travel/screen/profile_page.dart';
 import 'package:flutter/material.dart';
@@ -12,7 +13,7 @@ class NavigationBarWidget extends StatefulWidget {
 
 class _NavigationBarWidgetState extends State<NavigationBarWidget> {
   int index = 0;
-  final screen = [HomePage(), BookingPage(), ProfilePage()];
+  final screen = [HomePage(), BookingPage(), ProfilePage(), DetailPage()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,6 +29,7 @@ class _NavigationBarWidgetState extends State<NavigationBarWidget> {
           BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
           BottomNavigationBarItem(icon: Icon(Icons.book), label: "Booking"),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
+          BottomNavigationBarItem(icon: Icon(Icons.details), label: "Details"),
         ],
       ),
     );
